@@ -14,7 +14,7 @@ int main(int argc, char* args[])
 	if (!SUCCEEDED(hr)) return 0;	// If we failed, end now //
 
 	/// Main logic ///
-	CHK_HR(RUN(L"data.xml", L"operations.xml", L"output_JZO.xml"));
+	CHK_HR(RUN(L"data.xml", L"operations.xml", L"output.xml"));
 
 	/// Clean up ///
 CleanUp:
